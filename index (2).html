@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>GENERAL BUS PASS APPLICATION</h1></center>
+    <form action="./response.html" method="get">
+        <!-- to create applicant details  -->
+         <fieldset>
+            <legend><b>Application Details</b></legend>
+         <label for="1">Name*</label>
+    <input type="text" name="Name" id="1"><br>
+    <label for="2">Date of birth*</label>
+    <input type="text" name="Date of birth" id="2"><br>
+    <label for="Age as on">Age as on</label>
+    <input type="checkbox"  name="Age as on" id="Year"> 
+    <label for="year">Year(s)</label>
+    <input type="checkbox" name="Age as on" id="month">
+    <label for="month" >Month(s)</label>
+    <input type="checkbox" name="Age as on" id="Day">
+    <label for="Day">Day(s)</label><br>
+    <label for="3">Mobile No*</label>
+    <input type="text" name="Mobile No" id="3"><br>
+    <label for="4">Photo*</label>
+    <input type="file" name="Photo" id="4"><br>
+    <label for="5">Father's/ guardian's Name*</label>
+    <input type="text" name="Father's/ guardian's Name" id="5"><br>
+    <label for="Gender">Gender*</label>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male" value="Male">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female" value="Female"><br>
+    <label for="6">Adhaar No*</label>
+    <input type="text" name="adhaar No" id="6"><br>
+    <label for="7">E-mail id *</label>
+    <input type="email" name="E-mail" id="7"><br>
+    </fieldset>
+    <fieldset>
+        <legend><b>Residential address Details</b></legend>
+        <label for="8">Applicant's Address*</label>
+        <input type="textarea" name="Applicant's Address" id="8"><br>
+        <label for="9">Mandal*</label>
+        <select name="Mandal" id="9">
+            <option value="Gajularamaram">Gajularamaram</option>
+            <option value="Gandimaisamma">Gandimaisamma</option>
+            <option value="kukatpally">Kukatpally</option>
+            <option value="medchal">Medchal</option>
+            <option value="balnagar">Balanagar</option>
+            <option value="qutubullapur">Qutbullapur</option>
+            <option value="Bachupally">Bachupally</option>
+            <option value="alwal">Alwal</option>
+            <option value="kapra">Kapra</option>
+            <option value="malkajgiri">malkajgiri</option>
+        </select><br>
+        <label for="10">Pincode*</label>
+        <input type="text" name="Pincode" id="10"><br>
+        <label for="11">District*</label>
+        <select name="District" id="11">
+            <option value="hyderabad">Hyderabad</option>
+            <option value="rangareddy">Rangareddy</option>
+            <option value="medak">Medak</option>
+            <option value="nagar kurnool">Nagarkurnool</option>
+            <option value="khammam">Khammam</option>
+            <option value="warangal">Warangal</option>
+        </select><br>
+        <label for="12">Village*</label>
+        <select name="Village" id="12">
+        <option value="shapur">shapur nagar</option>
+        <option value="suchitra">suchitra</option>
+        <option value="Kompally">Kopampally</option>
+        <option value="kphb">KPHB</option>
+        <option value="miyapur">Miyapur</option>
+    </select>
+    </fieldset>
+    <fieldset>
+        <legend><b>Pass Type Details</b></legend>
+        <label for="13">City*</label>
+        <select name="City" id="13">
+            <option value="hyderabad">Hyderabad</option>
+        </select><br>
+        <label for="14">Pass Type*</label>
+        <select name="Pass Type" id="14">
+            <option value="-----select------">-----select---------</option>
+            <option value="monthly pass">monthly pass</option>
+            <option value="three month ">three months pass</option>
+            <option value="yearly">Yearly pass</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend><b>Mode Of Payment & Pass Collection </b></legend>
+        <label for="15">Payment Mode*</label>
+        <select name="Payment Mode" id="15">
+            <option value="select payment mode">Select Payment Mode</option>
+            <option value="online">Online mode</option>
+            <option value="Cash">Cash Mode</option>
+            </select><br>
+            <label for="16">Pass Delivery Mode*</label>
+            <select name="Pass Delivery Mode" id="16">
+                <option value="select passs delivey mode">Select Pass Delivery</option>
+                <option value="ordinary">Ordinary</option>
+                <option value="metro">Metro Express</option>
+            </select><br>
+            <label for="17">Center at which you want to collect pass*</label>
+            <select name="Center at which you want to collect pass" id="17">
+                <option value="----select----">--------select----------</option>
+                <option value="shapur nagar">Shapur nagar</option>
+                <option value="kukatpally">kukatpally</option>
+                <option value="sr nagar">SR nagar</option>
+                <option value="balanagr">Balanagar</option>
+                <option value="miyapur">Miyapur</option>
+            </select>
+    </fieldset>
+    <input type="submit">
+
+</form>
+</body>
+</html>
